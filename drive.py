@@ -10,7 +10,7 @@ import matplotlib.cm as colormap
 
 NSwarmalators = 20
 NatFreq = np.array([0.0] * NSwarmalators)
-InitVelocityX = np.array([0.001] * NSwarmalators)
+InitVelocityX = np.array([0.0] * NSwarmalators)
 InitVelocityY = np.array([0.0] * NSwarmalators)
 
 MinXPosition = -1
